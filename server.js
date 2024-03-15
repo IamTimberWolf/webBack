@@ -2,7 +2,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const {MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://hardouinmalo:gs5JVFI602YLuin2@mycluster.hwjzjmp.mongodb.net/?retryWrites=true&w=majority";
+const uri = "secret";
 
 const app = express();
 app.use(bodyParser.json());
